@@ -56,8 +56,17 @@ function checkAnswer(currentLevel) {
 
     setTimeout(function () {
       $("body").removeClass("game-over");
-    }, 200);
+    }, 500);
+
+    startOver();
 	}
+}
+
+// To start the game again
+function startOver() {
+	level = 0;
+	gamePattern = [];
+	start = false;
 }
 
 // ANIMATIONS
