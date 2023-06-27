@@ -1,0 +1,16 @@
+html {
+    box-sizing: border-box;
+    font-size: var(--htmlFontSize);
+}
+
+body {
+    background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.grid {
+    inline-size: 90%;
+    margin-inline: auto;
+    max-inline-size: 20rem;
+    display: grid;
+}
