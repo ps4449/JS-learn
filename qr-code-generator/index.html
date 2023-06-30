@@ -10,9 +10,9 @@
 <body>
     <div class="grid">
         <h2 align="center">QR Code Generator</h2>
-        <center><img id="" src=""></center>
+        <center><img id="qrimg" src=""></center><br>
         
-        <select>
+        <select id="dim">
             <option value="100">100 x 100</option>
             <option value="150">150 x 150</option>
             <option value="200" selected>200 x 200</option>
@@ -21,7 +21,7 @@
         </select><br>
 
         <textarea id="qrtext" placeholder="Enter your text"></textarea><br>
-        <button type="button" onclick="generateQR">Enter</button>
+        <button type="button" onclick="generateQR()">Enter</button>
     </div>
 
     <script type="text/javascript" src="script.js"></script>
